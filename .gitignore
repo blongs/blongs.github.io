@@ -1,7 +1,2 @@
-*Thumbs.db
-.bundle
-.sass-cache
-Gemfile.lock
-_site
-*.gem
-*.bak
+
+_posts/2017-08-17-挑战程序设计之刷题笔记1.md

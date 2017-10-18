@@ -1,54 +1,23 @@
-Jekyll Xixia
-============
+## Welcome to Jackpon Gitblog
+该博客是利用 GitHub Pages+Jekyll 搭建而成，并参照了Jekyll的开源模板NexT(http://theme-next.simpleyyt.com/getting-started.html#install-next-theme)，
+在此非常感谢GitHub Pages这么好用的项目，也感谢为此模板做出贡献的大佬，
+详情欢迎访问我的Gitblog：https://jackpon.github.io
 
-* Get it from [github](https://github.com/zxixia/jekyll-xixia).
-* See the [live demo](http://zxixia.github.io/jekyll-xixia/).
-* See it [in action on my own blog](http://xixia.info/).
+## 如果你对此感兴趣
+那么你只需几个步骤就可以搭建基于GitHub Pages的个人博客网站；
 
-A simple and clean Jekyll theme using [bootstrap](http://getbootstrap.com)
-(not to be confused with jekyll-bootstrap) that's easy to modify and very
-modular in component and element reuse.
+### 1. Fork该项目，将在你仓库的该项目取名为 “你的用户名.github.io”(setting那改)，
+此时在setting的GitHub Pages那一栏就已经生成你的个人博客网站了，只不过样式是我的；
+简单介绍下各个文件目录代表什么：
+index.html：这是你博客的主页面，里面的内容就是你的主页了；
+_config.yml：这是你博客的基本配置文件，里面有你博客的名字，以及存放博主的一些基本信息；
+_layouts：这文件夹里面存放你每个页面的设计，一般有default.html（默认页面）和posts.html（博文页面）；
+_includes：这个文件夹里的的内容将会通用到你博客每个页面，起到一种便利的作用；
+_posts：这里面装的就是你的博文啦，记住，要用markdown语法写，要不上传会失败的。
+### 2. git clone到你本地，修改一下文件；
+### 3. 修改_config.yml、README.md和_posts；（具体操作访问上面Jekyll的开源模板NexT网址）
+### 4. 最后一步，将该项目git push到你的项目
 
-The theme works well on mobile phones, using a collapsable nav bar and hiding the
-sidebar. The links pane in the sidebar is available on mobile through the nav menu,
-and you can do the same thing for any other sections added to the sidebar.
+### 补充：对于git的基本操作如果不熟悉可以看看我在知乎的一篇文章——Git入门操作（https://www.zhihu.com/people/Jackpon/posts ）我的Gitblog上也有；
+### 也可以在知乎私信给我，尽我所能帮助 *_*!
 
-Don't forget to occassionally merge against my upstream repository so you can get
-the latest changes. Pull requests are encouraged and accepted!
-
-Preview
-=======
-![Xixia](/assets/images/preview.png)
-
-License
-=======
-
-The content of this theme is distributed and licensed under a
-![License Badge](assets/images/cc_by_88x31.png)
-[Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
-
-    This license lets others distribute, remix, tweak, and build upon your work,
-    even commercially, as long as they credit you for the original creation. This
-    is the most accommodating of licenses offered. Recommended for maximum
-    dissemination and use of licensed materials.
-
-In other words: you can do anything you want with this theme on any site, just please
-provide a link to [the original theme on github](https://github.com/zxixia/jekyll-xixia)
-so I get credit for the original design. Beyond that, have at it!
-
-Thanks
-======
-
-1，[Jekyll][jekyll-url]
-
-2，[Bootstrap][bootstrap-url]
-
-3，[Github][github-url]
-
-4，[Jekyll Clean Theme][Jekyll-Clean-Theme-url]
-
-[jekyll-url]: http://jekyllrb.com/
-[bootstrap-url]: http://getbootstrap.com/
-[github-url]: https://github.com/
-[Jekyll-Clean-Theme-url]: https://github.com/scotte/jekyll-clean
-[xixia-url]: http://xixia.info/
